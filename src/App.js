@@ -9,9 +9,17 @@ function App() {
         <h2>
           Download IOS Applicatoion
         </h2>
-        
+        <a
+          className="App-link"
+          href="./application/manifest.plist"
+          target="_blank"
+          rel='noopener noreferrer'
+          >
+          Download Application
+        </a>
         <a href="itms-services://?action=download-manifest&amp; 
     url=https://aerodynamic.vercel.app/application/manifest.plist" className="App-link" 
+    target="_blank"
     rel='noopener noreferrer'>
     Download Application
 </a>
