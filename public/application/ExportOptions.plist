@@ -9,11 +9,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://innovaciotech.com/aerodynamicl/Aerodynamic.ipa</string>
+		<string>https://aerodynamic.vercel.app/application/Aerodynamic.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://innovaciotech.com/aerodynamicl/image.png</string>
+		<string>https://aerodynamic.vercel.app/application/download.jpeg</string>
 		<key>fullSizeImageURL</key>
-		<string>https://innovaciotech.com/aerodynamicl/image.png</string>
+		<string>https://aerodynamic.vercel.app/application/download.jpeg</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
