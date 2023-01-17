@@ -11,7 +11,7 @@ function App() {
         </h2>
         <a
           className="App-link"
-          href="./application/manifest.plist"
+          href="./application/Aerodynamic.ipa"
           target="_blank"
           rel='noopener noreferrer'
           >
