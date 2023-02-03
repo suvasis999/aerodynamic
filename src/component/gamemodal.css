@@ -1,0 +1,62 @@
+.modalbody {
+    background-image: url('../../public/assets/homescreen/Modal.png');
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+ }
+ .customOverlay {
+    background: transparent
+  }
+  .customModal {
+    width: 380px;
+    height: 290px;
+    background-size: cover;
+    background-color: transparent;
+  }
+  .customModalGAme {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: transparent;
+  }
+ .modalContainer{
+   background-image: url('../../public/assets/homescreen/Modal.png');
+     width: 340px;
+    height: 250px;
+    background-size: cover;
+   
+ }
+
+ .mymodal .modal-content {
+    
+  }
+
+  .paymentModal{
+   text-align: center;
+   position: relative;
+  }
+  .paymentModalDiv{
+    position: absolute;
+    top: 60px;
+    left: 20%;
+  }
+  .paymentLable{
+    background-color: transparent;
+    height: 30px;
+    text-align: left;
+    color:#ffffff;
+  }
+  .paymentInput{
+    background-color: transparent;
+    border: 1px solid #ddd;
+    height: 30px;
+    color:#ffffff;
+    padding: 0px 10px;
+  }
+
+  .btnJoin{
+    background: linear-gradient(180deg, #00E0FF 0%, #E100E6 100%);
+border: 1px solid #6600AF;
+border-radius: 5px;
+}
+

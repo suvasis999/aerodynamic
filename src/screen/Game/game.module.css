@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    height: 100vh;
+    background-image: url("../../../public/assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .loading{
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  }
+  
+  .loadingImg{
+    width: 30%;
+    z-index: 10;
+    background-image: '../../../public/assets/splash_back.png';
+    
+  }
+  .carouselItem{
+    padding-right: 40px
+} 
+  .container {
+    width: 100%;
+    height: 60vh;
+      }
+ .loadBar{
+  width: 100%;
+  height: 100vh;
+  z-index: 22;
+  margin: 0 auto;
+  flex: 1;
+  align-items: center;
+  position: absolute;
+  top:0;
+ align-items: center;
+ }
+ .gameContainer{
+ width: 80%;
+ height: 90vh;
+ margin: 0 auto;
+ margin-top:30px;
+ }
+ .gameHeader{
+  height: 12vh;
+  width: 100%;
+  background-image: url('../../../public/assets/homescreen/Menubar1.png');
+  background-size: cover;
+  padding: 30px 20px 0px 20px;
+ }
+ .gameInner{
+  height: 66vh;
+  width: 100%;
+ }
+ .gameLeft{
+  width: 100%;
+  height: 66vh;
+  background-image: url('../../../public/assets/homescreen/leftsaidimage.png');
+  background-size: cover;
+   background-repeat: no-repeat;
+ }
+ .gameMiddle{
+  height: 100vh;
+
+ }
+ .gameRight{
+  width: 100%;
+  height: 66vh;
+  background-image: url('../../../public/assets/homescreen/Rightsaidimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .cardGame{
+  background-image: url('../../../public/assets/homescreen/frem.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  padding:0px 20px;
+ 
+ }
+ .gameFooter{
+  height: 12vh;
+  width: 100%;
+  background-image: url('../../../public/assets/homescreen/Menubar1.png');
+  background-size: cover;
+  transform: rotate(180deg);
+ }
+ .progressStyle{
+  background-color: #00e0ff;
+  width: 400px;
+  margin: 0 auto;
+ margin-bottom: -100px;
+ }
+.lblWhite{
+  color:#ffffff;
+}
+  .graphics_image {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+  }
+  .bottom_graphics {
+   /* position: absolute;*/
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 23;
+    background: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .headImage {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    /* margin-top: 20px; */
+  }
+  
+  
+  main {
+    /* margin-top: 40px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  main section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: stretch;
+    color: white;
+    width: 240px;
+  }
+  main section > .image {
+    height: 100px;
+    padding: 30px;
+    background: #1b1742;
+    box-sizing: content-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #00e0ff, #e100e5);
+    border-image-slice: 1;
+  }
+  
+  main section a,
+  main section button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    height: 30px;
+    gap: 20px;
+    background: #1b1742;
+    box-sizing: content-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #00e0ff, #e100e5);
+    border-image-slice: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+    background: #182035;
+    height: 80px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+
+   /*Top Navbar*/
+.profile_Avtar{
+  width: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+}
+.profile_Avtar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.deposti_btn{
+  width: 100%;
+  cursor: pointer;
+  background-image: url('../../../public/assets/home/bar.png');
+  margin-top: -4px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.deposti_btn_dailyWheel{
+  width: 100%;
+  background-image: url('../../../public/assets/home/spin_bg.png');
+  margin-top: -10px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.deposti_btn img{
+  width: 100%;
+}
+.btnLbl{
+  color:#ffffff;
+  font-size: 14px;
+  padding: 6px;
+  font-weight: bold;
+}
+.amt_chkDiv{
+  width: 100%;
+  cursor: pointer;
+  background-image: url('../../../public/assets/home/bar.png');
+  margin-top: -10px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btnLblAmt{
+  color:#ffffff;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: bold;
+}
+.arrow{
+  position:absolute;
+  right: 15px;
+  top: 2px;
+}
+.redeemArrow{
+  position:absolute;
+  left: 15px;
+  top: 2px;
+}
+.spinnerImg img{
+  width: 100px;
+   padding: 6px;
+  font-weight: bold;
+  margin-top: -38px;
+  cursor: pointer;
+}
+ /*Top Navbar*/

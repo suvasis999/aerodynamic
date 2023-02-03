@@ -1,0 +1,175 @@
+.navBg{
+    background-color: #182035;
+}
+.navbarCustom{
+    padding:0px 20px;
+    text-align: left;
+}
+.navbarCustom a{
+   color:#ffffff;
+}
+
+.navbarCustom a:hover{
+    color:#ffffff;
+ }
+ .navbarCustom a:focus{
+    color:#ffffff;
+ }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(255 0 0 / 90%);
+}
+.bodyContainer{
+    padding:50px 50px;
+    color:#ffffff;
+    background-color: red;
+}
+.graphics_image{
+    padding:0px;
+}
+ 
+.customNavIcon{
+    border:transparent;
+    padding:5px;
+    color:#ffffff;
+}
+.customNavIcon:hover{
+    border:transparent;
+    box-shadow: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.homeGirl{
+width: 100%;
+}
+.title{
+    font-weight: 400;
+font-size: 50px;
+line-height: 65px;
+background: linear-gradient(180deg, #00E0FF 0%, #E100E6 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-family: 'Impact';
+}
+.homeTop{
+    position: absolute;
+    right: 0px;
+    width: 70%;
+    top: 60px;
+}
+.homeBottom{
+    position: absolute;
+    left: 0px;
+    width: 70%;
+}
+.gameTitle{
+    font-family: revert;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.gameDtls{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.gameSection{
+    padding:60px 0px;
+}
+.gameDownload{
+    padding: 60px 0px;position: relative;
+}
+.Contitle{
+    color:#ffffff;
+    font-size: 46px;
+    font-family: 'Impact';
+    font-weight: 200;
+}
+.gameDownDivTitle{
+    font-family: revert;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 74px;
+text-align: left;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
+.buttomGraohicGirl{
+    position: absolute;
+    height: 450px;
+    right: 0px;
+    bottom: -83px;
+
+}
+.buttomGraohicIcon{
+    position: absolute;
+    height: 120px;
+    right: 0px;
+    bottom: -83px;
+    z-index: 2;
+}
+.Downbtn{
+    height: 80px;
+    cursor: pointer;
+}
+.DownbtnIos{
+    height: 80px;
+    cursor: pointer;
+}
+.btnJoin{
+    background: linear-gradient(180deg, #00E0FF 0%, #E100E6 100%);
+border: 1px solid #6600AF;
+border-radius: 5px;
+}
+.gameDownContactDiv{
+  text-align: left;
+   
+}
+.icon{
+    width: 20px;
+   
+}
+.contactDiv{
+    margin-bottom: 18px;
+}
+.footerDiv{
+    color:'#ffffff';
+    padding: 20px 0px;
+}
+.rightArrow{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 170px;
+    cursor: pointer;
+}
+.leftArrow{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 170px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    /* padding: 10px 20px; */
+    color: white;
+    /* height: 100px; */
+    background-color: #182035;
+    height: 80px;
+  }
+  
+  .navbar > img {
+    width: auto;
+    height: 100%;
+  }
+  .navbar > img:last-child {
+    width: 200px;
+  }
+  
+  .navbar .link {
+    color: cyan;
+    font-size: 1.2rem;
+  }
+  
